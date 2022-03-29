@@ -1,15 +1,10 @@
 body {
 	background-color: rgb(244, 255, 240);
 }
-
-img {
-	padding: 20px;
+.margin {
+	margin-left: 20px;
 }
 
-h1 {
-	padding: 20px;
-}
-
-h2 {
-	padding: 20px;
+h3 {
+  background-color: #e7dae2;
 }

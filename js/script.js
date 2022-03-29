@@ -1,4 +1,5 @@
-function salary () {
+function salary() {
+	
 	let hours = parseInt(document.getElementById('hours').value);
 	let rate = parseInt(document.getElementById('rate').value);
 	const TAX_RATE = 0.1805;
@@ -7,5 +8,5 @@ function salary () {
 	let tax = total * TAX_RATE;
 	let pay = total - tax;
 
-	document.getElementById('pay').innerHTML = 'your pay will be' + pay +
+	document.getElementById('pay').innerHTML = 'your pay will be' + pay 
 }
